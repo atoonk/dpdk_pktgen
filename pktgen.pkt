@@ -1,0 +1,11 @@
+stop 0
+set 0 rate 0.1
+set 0 ttl 10
+set 0 proto udp
+set 0 dport 81
+set 0 dst mac 44:ec:ce:c1:a8:20
+#set 0 src mac 00:52:44:11:22:33
+#set 0 src mac 00:00:00:00:00:01
+set 0 dst ip 10.99.204.8
+set 0 src ip 10.99.204.3/30
+set 0 size 64
