@@ -1,0 +1,24 @@
+stop 0
+set 0 rate 0.1
+range 0 ttl start 10
+range 0 dst mac start 44:ec:ce:c1:a8:20
+
+range 0 proto udp
+range 0 src port start 4000
+range 0 src port inc 0
+range 0 src port max 4000
+
+range 0 dst port start 4000
+range 0 dst port min 4000
+range 0 dst port max 4000
+range 0 dst port inc 0
+
+range 0 dst ip start 10.99.204.8
+range 0 dst ip inc 0
+range 0 dst mac start 44:ec:ce:c1:a8:20
+
+range 0 src ip start 10.99.204.3
+range 0 src ip inc 0
+
+range 0 size start 64
+range 0 size inc 0
