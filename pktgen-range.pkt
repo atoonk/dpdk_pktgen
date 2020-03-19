@@ -23,3 +23,4 @@ range 0 src ip inc 0
 
 range 0 size start 64
 range 0 size inc 0
+enable 0 range
