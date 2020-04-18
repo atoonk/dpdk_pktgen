@@ -39,6 +39,9 @@ echo "default_hugepagesz=1G hugepagesz=1G hugepages=8 iommu=pt intel_iommu=on pc
 echo 'example: GRUB_CMDLINE_LINUX="console=tty0 console=ttyS1,115200n8 biosdevname=0 net.ifnames=1 default_hugepagesz=1G hugepagesz=1G hugepages=8 iommu=pt intel_iommu=on pci=assign-busses"'
 echo "after that run: update-grub && reboot"
 echo "this will reboot your machine!"
+echo "other things you may want to add are:"
+echo "maxcpus=32"
+echo "isolcpus=3-31"
 exit 1
 fi
 
