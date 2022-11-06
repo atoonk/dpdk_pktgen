@@ -64,7 +64,7 @@ echo "Installing packages..."
 apt-get -y update
 apt-get -y upgrade
 #apt-get -y install python2.7
-apt-get -y install build-essential ninja-build
+apt-get -y install build-essential ninja-build meson
 apt-get -y install libnuma-dev
 apt-get -y install pciutils
 apt-get -y install libpcap-dev
