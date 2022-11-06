@@ -63,7 +63,7 @@ cd /opt
 echo "Installing packages..."
 apt-get -y update
 apt-get -y upgrade
-apt-get -y install python2.7
+#apt-get -y install python2.7
 apt-get -y install build-essential
 apt-get -y install libnuma-dev
 apt-get -y install pciutils
